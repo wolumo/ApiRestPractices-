@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "lyBl8Xxvn8wBpyJZ6/N/hxjm6Q3FzGPz4CJnvZyp6I5Ogj3qXJBH+rNzCWTcpUbZl6SoDcoTeIOK61mUcuWLGQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\wquintana\\Documents\\Source\\Proyectos Personales (Wiston)\\ApiRestPractice\\BuberBreakfast.Contracts\\BuberBreakfast.Contracts.csproj",
+  "expectedPackageFiles": [],
+  "logs": [
+    {
+      "code": "NU1803",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "You are running the 'restore' operation with an 'HTTP' source, 'http://nuget.grapecity.com/nuget'. Non-HTTPS access will be removed in a future version. Consider migrating to an 'HTTPS' source."
+    }
+  ]
+}

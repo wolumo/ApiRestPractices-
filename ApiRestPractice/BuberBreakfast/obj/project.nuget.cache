@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "4VUO9CVwzV3Lfwd7zihrM5Wr3lcP8okZ0fJVHnwlhCwyGgI8WzZOU2vwKD/kp1niTpET+MSwCHWl0nyqxBxNbQ==",
+  "dgSpecHash": "HaqiXUC2cTf8gNu8u68xn2r9jvz5N2Eb45whraJ4+mDy7U0voNR9iUxe7nsBdwUuGKQyVPGt0YHcJooEcAWV0Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\wquintana\\Documents\\Source\\Proyectos Personales (Wiston)\\ApiRestPractice\\BuberBreakfast\\BuberBreakfast.csproj",
+  "projectFilePath": "C:\\Users\\wquintana\\documents\\Source\\Proyectos Personales (Wiston)\\apirestPractices-\\ApiRestPractice\\BuberBreakfast\\BuberBreakfast.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\wquintana\\.nuget\\packages\\erroror\\1.3.0\\erroror.1.3.0.nupkg.sha512",
     "C:\\Users\\wquintana\\.nuget\\packages\\microsoft.aspnetcore.antiforgery\\2.2.0\\microsoft.aspnetcore.antiforgery.2.2.0.nupkg.sha512",
     "C:\\Users\\wquintana\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.2.0\\microsoft.aspnetcore.authentication.abstractions.2.2.0.nupkg.sha512",
     "C:\\Users\\wquintana\\.nuget\\packages\\microsoft.aspnetcore.authentication.core\\2.2.0\\microsoft.aspnetcore.authentication.core.2.2.0.nupkg.sha512",

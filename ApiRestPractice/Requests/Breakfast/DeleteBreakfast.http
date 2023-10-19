@@ -1,3 +1,3 @@
-@Id= 00000000-0000-0000-0000-00000000000
+@Id=04022787-1367-4670-90f2-0c820c373891
 
-DELETE  http://localhost:5036/breakfast/{{Id}}
+DELETE  http://localhost:5036/breakfasts/{{Id}}

@@ -1,10 +1,10 @@
-@Id= 00000000-0000-0000-0000-00000000000
+@Id=04022787-1367-4670-90f2-0c820c373891
 
-PUT http://localhost:5036/breakfasts/{{{Id}}}
+PUT http://localhost:5036/breakfasts/{{Id}}
 Content-Type: application/json
 
 {
-"name": "Vegan Sunshine",
+"name": "Vegan Sunshine3",
     "description": "Vegan everything! Join us for a healthy breakfast..",
     "startDateTime": "2022-04-08T08:00:00",
     "endDateTime": "2022-04-08T11:00:00",

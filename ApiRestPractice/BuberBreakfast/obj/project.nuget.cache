@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "HaqiXUC2cTf8gNu8u68xn2r9jvz5N2Eb45whraJ4+mDy7U0voNR9iUxe7nsBdwUuGKQyVPGt0YHcJooEcAWV0Q==",
+  "dgSpecHash": "4EAaDgkGDxhC26RFaleV1eI6qqG7BkAzFWGlfxIUxI7EoWWGfGM4pU5S5g9DTrkCipOLCU3A+k+AQr4Vw9Ug7Q==",
   "success": true,
-  "projectFilePath": "C:\\Users\\wquintana\\documents\\Source\\Proyectos Personales (Wiston)\\apirestPractices-\\ApiRestPractice\\BuberBreakfast\\BuberBreakfast.csproj",
+  "projectFilePath": "C:\\Users\\wquintana\\Documents\\Source\\Proyectos Personales (Wiston)\\ApiRestPractices-\\ApiRestPractice\\BuberBreakfast\\BuberBreakfast.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\wquintana\\.nuget\\packages\\erroror\\1.3.0\\erroror.1.3.0.nupkg.sha512",
     "C:\\Users\\wquintana\\.nuget\\packages\\microsoft.aspnetcore.antiforgery\\2.2.0\\microsoft.aspnetcore.antiforgery.2.2.0.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\wquintana\\documents\\Source\\Proyectos Personales (Wiston)\\apirestPractices-\\ApiRestPractice\\BuberBreakfast.Contracts\\BuberBreakfast.Contracts.csproj": {}
+    "C:\\Users\\wquintana\\Documents\\Source\\Proyectos Personales (Wiston)\\ApiRestPractices-\\ApiRestPractice\\BuberBreakfast.Contracts\\BuberBreakfast.Contracts.csproj": {}
   },
   "projects": {
-    "C:\\Users\\wquintana\\documents\\Source\\Proyectos Personales (Wiston)\\apirestPractices-\\ApiRestPractice\\BuberBreakfast.Contracts\\BuberBreakfast.Contracts.csproj": {
+    "C:\\Users\\wquintana\\Documents\\Source\\Proyectos Personales (Wiston)\\ApiRestPractices-\\ApiRestPractice\\BuberBreakfast.Contracts\\BuberBreakfast.Contracts.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\wquintana\\documents\\Source\\Proyectos Personales (Wiston)\\apirestPractices-\\ApiRestPractice\\BuberBreakfast.Contracts\\BuberBreakfast.Contracts.csproj",
+        "projectUniqueName": "C:\\Users\\wquintana\\Documents\\Source\\Proyectos Personales (Wiston)\\ApiRestPractices-\\ApiRestPractice\\BuberBreakfast.Contracts\\BuberBreakfast.Contracts.csproj",
         "projectName": "BuberBreakfast.Contracts",
-        "projectPath": "C:\\Users\\wquintana\\documents\\Source\\Proyectos Personales (Wiston)\\apirestPractices-\\ApiRestPractice\\BuberBreakfast.Contracts\\BuberBreakfast.Contracts.csproj",
+        "projectPath": "C:\\Users\\wquintana\\Documents\\Source\\Proyectos Personales (Wiston)\\ApiRestPractices-\\ApiRestPractice\\BuberBreakfast.Contracts\\BuberBreakfast.Contracts.csproj",
         "packagesPath": "C:\\Users\\wquintana\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\wquintana\\documents\\Source\\Proyectos Personales (Wiston)\\apirestPractices-\\ApiRestPractice\\BuberBreakfast.Contracts\\obj\\",
+        "outputPath": "C:\\Users\\wquintana\\Documents\\Source\\Proyectos Personales (Wiston)\\ApiRestPractices-\\ApiRestPractice\\BuberBreakfast.Contracts\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

@@ -22,16 +22,13 @@ public class BreakfastsController : ApiController {
 
     public IActionResult CreateBreakfast(CreateBreakfastRequest request)
     {
-        var breakfast = new Breakfast(
-            Guid.NewGuid(),
-            request.Name,
-            request.Description,
-            request.StarDateTime,
-            request.EndDateTime,
-            DateTime.UtcNow,
-            request.Savory,
-            request.Sweet);
+        ErrorOr<Breakfast> requestToBreakfastResult =  Breakfast.From(request);
 
+        if (requestToBreakfastResult.IsError){
+            return Problem(requestToBreakfastResult.Errors);
+        }
+
+        var breakfast = requestToBreakfastResult.Value;
         ErrorOr<Created> createBreakfastResult = _breakfastService.CreateBreakfast(breakfast);
 
        return createBreakfastResult.Match(
@@ -88,20 +85,15 @@ public class BreakfastsController : ApiController {
     public IActionResult UpsertBreakfast(Guid id, UpsertBreakfastRequest request)
     {
 
-        var breakfast = new Breakfast(
-            id, 
-            request.Name,
-            request.Description,
-            request.StarDateTime,
-            request.EndDateTime,
-            DateTime.UtcNow,
-            request.Savory,
-            request.Sweet
-        );
+        ErrorOr <Breakfast> requestToBreakfastResult = Breakfast.From(id, request);
 
+        if (requestToBreakfastResult.IsError){
+            return Problem(requestToBreakfastResult.Errors);
+        }
+
+        var breakfast = requestToBreakfastResult.Value; 
         ErrorOr<UpsertedBreakfast> upsertedBreakfastResult =   _breakfastService.UpsertBreakfast(breakfast);   
 
-        // TODO: return 201 if a new Breakfast was created
         return upsertedBreakfastResult.Match(
             upserted => upserted.IsNewlyCreated ? CreatedAtGetBreakfast(breakfast) : NoContent(),
             errors => Problem(errors)
